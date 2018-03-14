@@ -1,0 +1,26 @@
+{
+	"name" : "munichresearch/yii2_cached_purifier",
+	"description" : "Cache purified content to increase performance",
+	"keywords" : [
+		"yii2",
+		"extension",
+		"HTMLPurifier",
+		"BaseHTMLPurifier",
+		"Security"
+	],
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Linus Kohl",
+			"email" : "linus@munichresearch.com",
+			"homepage" : "https://github.com/linuskohl"
+		}
+	],
+	"require" : {
+		"yiisoft/yii2" : ">2.0.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"munichresearch\\yii2_cached_purifier\\" : ""
+		}
+	}
+}
